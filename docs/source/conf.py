@@ -38,6 +38,9 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_rtd_theme'  # 使用ReadTheDocs主题
 html_static_path = ['_static']
+html_baseurl = 'https://nwafufhy.github.io/TS4GPC/'
+# 创建.nojekyll文件，防止GitHub Pages忽略下划线开头的文件夹
+html_extra_path = ['.nojekyll']
 
 # autodoc设置
 autodoc_member_order = 'bysource'  # 按源代码顺序排列成员
