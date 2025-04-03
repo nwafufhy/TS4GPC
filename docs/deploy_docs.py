@@ -55,11 +55,11 @@ def deploy_to_gh_pages():
     
     # 推送到gh-pages分支
     # 注意：需要替换为您的GitHub仓库URL
-    repo_url = "https://github.com/你的用户名/TS4GPC.git"
+    repo_url = "https://github.com/nwafufhy/TS4GPC.git"
     subprocess.run(f"git push -f {repo_url} master:gh-pages", shell=True)
     
     print("文档已成功部署到GitHub Pages！")
-    print(f"请访问 https://你的用户名.github.io/TS4GPC/ 查看文档")
+    print(f"请访问 https://nwafufhy.github.io/TS4GPC/ 查看文档")
 
 def main():
     """脚本入口点"""
