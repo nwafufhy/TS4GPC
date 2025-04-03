@@ -1,9 +1,7 @@
 # TS4GPC
-[![Build Status](https://github.com/nwafufhy/TS4GPC/actions/workflows/python-app.yml/badge.svg)](https://github.com/nwafufhy/TS4GPC/actions)
-[![Coverage Status](https://coveralls.io/repos/github/nwafufhy/TS4GPC/badge.svg?branch=main)](https://coveralls.io/github/nwafufhy/TS4GPC?branch=main)
+
+**文档：**
 [![Documentation Status](https://github.com/nwafufhy/TS4GPC/actions/workflows/pages/pages-build-deployment/badge.svg)](https://nwafufhy.github.io/TS4GPC/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 《基于多时相光谱的小麦籽粒蛋白质含量预测研究》的代码库
 > TS4GPC: Time Series 4 Grop Protein Content
