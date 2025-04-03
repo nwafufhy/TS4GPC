@@ -1,0 +1,1 @@
+# 参考文献：https://gis.stackexchange.com/questions/166074/create-shapefile-of-raster-outline-using-python?rq=1

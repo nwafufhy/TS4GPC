@@ -1,0 +1,1 @@
+# 参考文献：https://gis.stackexchange.com/questions/297076/how-to-calculate-mean-value-of-a-raster-for-each-polygon-in-a-shapefile

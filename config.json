@@ -1,0 +1,24 @@
+{
+    "paths": {
+        "base_dir": "D:\\work\\xnpanV2\\personal_space\\program\\TS4GPC",
+        "data_dir": "D:\\work\\xnpanV2\\personal_space\\program\\TS4GPC\\DATA",
+        "raw_data_dir": "D:\\work\\DATA\\DATA_TS4GPC\\raw\\UAV\\CXZ-WN",
+        "processed_data_dir": "D:\\work\\DATA\\DATA_TS4GPC\\processed",
+        "output_dir": "D:\\work\\xnpanV2\\personal_space\\program\\TS4GPC\\Wheat_Multitemporal_Spectral_Dataset_2024",
+        "clipped_plots_dir": "D:\\work\\DATA\\DATA_TS4GPC\\processed\\clip_CXZ_WN_2024",
+        "patches_dir": "D:\\work\\DATA\\DATA_TS4GPC\\processed\\clip_CXZ_WN_2024_patches",
+        "merged_patches_dir": "D:\\work\\DATA\\DATA_TS4GPC\\processed\\clip_CXZ_WN_2024_patches_merged",
+        "plot_shapefile": "D:\\work\\DATA\\DATA_TS4GPC\\raw\\UAV\\CXZ-WN\\clip_shp\\2024_plot_clip_shp\\plot.shp",
+        "gpc_data_file": "D:\\work\\DATA\\DATA_TS4GPC\\processed\\gpc_data.csv",
+        "merged_data_file": "D:\\work\\DATA\\DATA_TS4GPC\\processed\\mergeANDprocessedANDxiuzheng_data_CXZ_WN_2023-2024.csv"
+    },
+    "data_params": {
+        "bands": ["Blue", "Green", "Red", "RedEdge", "NIR"],
+        "dates": [],
+        "patch_size": 64,
+        "patch_overlap": 0
+    },
+    "processing_params": {
+        "target_resolution": 0.03
+    }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>配置模块 &mdash; TS4GPC 0.1 文档</title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/sphinx_highlight.js"></script>
+        <script src="../../../_static/translations.js"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" />
+    <link rel="prev" title="UAV模块" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            TS4GPC
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">目录:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../introduction.html">介绍</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">模块文档</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">遥感模块</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">UAV模块</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">配置模块</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">TS4GPC</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../index.html">模块文档</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">遥感模块</a></li>
+          <li class="breadcrumb-item"><a href="index.html">UAV模块</a></li>
+      <li class="breadcrumb-item active">配置模块</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/modules/rs/uav/config.rst.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>配置模块<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<section id="module-RS.UAV.config.settings">
+<span id="settings"></span><h2>settings<a class="headerlink" href="#module-RS.UAV.config.settings" title="此标题的永久链接"></a></h2>
+<p>UAV遥感数据处理全局配置
+从配置文件加载设置</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.settings.load_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.settings.</span></span><span class="sig-name descname"><span class="pre">load_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/settings.html#load_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.settings.load_config" title="永久链接至目标"></a></dt>
+<dd><p>加载配置文件</p>
+<dl class="simple">
+<dt>参数:</dt><dd><p>config_path: 配置文件路径，如果为None则使用默认路径</p>
+</dd>
+<dt>返回:</dt><dd><p>配置字典</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.settings.save_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.settings.</span></span><span class="sig-name descname"><span class="pre">save_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/settings.html#save_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.settings.save_config" title="永久链接至目标"></a></dt>
+<dd><p>保存配置到文件</p>
+<dl class="simple">
+<dt>参数:</dt><dd><p>config_dict: 配置字典
+config_path: 配置文件路径，如果为None则使用默认路径</p>
+</dd>
+<dt>返回:</dt><dd><p>是否保存成功</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.settings.get_current_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.settings.</span></span><span class="sig-name descname"><span class="pre">get_current_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/settings.html#get_current_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.settings.get_current_config" title="永久链接至目标"></a></dt>
+<dd><p>获取当前配置</p>
+<dl class="simple">
+<dt>返回:</dt><dd><p>当前配置字典</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="config-manager">
+<h2>config_manager<a class="headerlink" href="#config-manager" title="此标题的永久链接"></a></h2>
+<span class="target" id="module-RS.UAV.config.config_manager"></span><p>UAV配置管理工具</p>
+<p>此模块提供了一组函数和命令行接口，用于管理UAV模块的配置文件。
+它允许用户创建、重置、更新和查看配置。</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.config_manager.create_default_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.config_manager.</span></span><span class="sig-name descname"><span class="pre">create_default_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/config_manager.html#create_default_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.config_manager.create_default_config" title="永久链接至目标"></a></dt>
+<dd><p>创建默认配置文件</p>
+<p>将当前配置保存为默认配置文件，以便在需要时重置配置。</p>
+<dl class="field-list simple">
+<dt class="field-odd">返回<span class="colon">:</span></dt>
+<dd class="field-odd"><p>是否成功创建默认配置文件</p>
+</dd>
+<dt class="field-even">返回类型<span class="colon">:</span></dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.config_manager.reset_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.config_manager.</span></span><span class="sig-name descname"><span class="pre">reset_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/config_manager.html#reset_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.config_manager.reset_config" title="永久链接至目标"></a></dt>
+<dd><p>重置配置为默认值</p>
+<p>从默认配置文件加载配置并保存到主配置文件。</p>
+<dl class="field-list simple">
+<dt class="field-odd">返回<span class="colon">:</span></dt>
+<dd class="field-odd"><p>是否成功重置配置</p>
+</dd>
+<dt class="field-even">返回类型<span class="colon">:</span></dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.config_manager.update_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.config_manager.</span></span><span class="sig-name descname"><span class="pre">update_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/config_manager.html#update_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.config_manager.update_config" title="永久链接至目标"></a></dt>
+<dd><p>更新配置中的特定值</p>
+<dl class="field-list simple">
+<dt class="field-odd">参数<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>key_path</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – 键路径，如 “paths.base_dir”</p></li>
+<li><p><strong>value</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>) – 新值</p></li>
+</ul>
+</dd>
+<dt class="field-even">返回<span class="colon">:</span></dt>
+<dd class="field-even"><p>是否成功更新配置</p>
+</dd>
+<dt class="field-odd">返回类型<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+<p class="rubric">示例</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">update_config</span><span class="p">(</span><span class="s2">&quot;data_params.patch_size&quot;</span><span class="p">,</span> <span class="s2">&quot;128&quot;</span><span class="p">)</span>
+<span class="go">配置已更新: data_params.patch_size = 128</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.config_manager.show_config">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.config_manager.</span></span><span class="sig-name descname"><span class="pre">show_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/config_manager.html#show_config"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.config_manager.show_config" title="永久链接至目标"></a></dt>
+<dd><p>显示当前配置</p>
+<p>打印当前配置内容，并返回配置字典。</p>
+<dl class="field-list simple">
+<dt class="field-odd">返回<span class="colon">:</span></dt>
+<dd class="field-odd"><p>当前配置字典，如果配置文件不存在则返回None</p>
+</dd>
+<dt class="field-even">返回类型<span class="colon">:</span></dt>
+<dd class="field-even"><p>Optional[Dict[str, Any]]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="RS.UAV.config.config_manager.main">
+<span class="sig-prename descclassname"><span class="pre">RS.UAV.config.config_manager.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/RS/UAV/config/config_manager.html#main"><span class="viewcode-link"><span class="pre">[源代码]</span></span></a><a class="headerlink" href="#RS.UAV.config.config_manager.main" title="永久链接至目标"></a></dt>
+<dd><p>命令行入口点</p>
+<p>提供命令行接口，用于管理配置文件。</p>
+<dl class="field-list simple">
+<dt class="field-odd">返回类型<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="index.html" class="btn btn-neutral float-left" title="UAV模块" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2025, fhy.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
